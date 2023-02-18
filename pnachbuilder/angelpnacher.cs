@@ -22,9 +22,12 @@ namespace pnachbuilder
             new ComboItem{ ID = 3, Text = "Copy" },
             new ComboItem{ ID = 4, Text = "Pointer Write" },
             new ComboItem{ ID = 5, Text = "Boolean" },
-            new ComboItem{ ID = 6, Text = "If" }
+            new ComboItem{ ID = 6, Text = "If" },
+            new ComboItem{ ID = 7, Text = "Comment" },
+            new ComboItem{ ID = 8, Text = "Raw Text" }
         };
 
+        //HashSet<string> existingAddresses = new HashSet<string>();
         Dictionary<string, string> existingAddresses = new Dictionary<string, string>();
 
         int numHidden = 0;
